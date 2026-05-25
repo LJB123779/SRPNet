@@ -64,37 +64,3 @@ SRPNet consists of three main components:
   <img src="assets/qualitative.png" width="90%">
 </p>
 
----
-
-## Qualitative Results
-
-<p align="center">
-  <img src="assets/results.png" width="90%">
-</p>
-
-SRPNet produces more complete object masks and clearer boundaries in challenging camouflaged scenes, including texture camouflage, blurred boundaries, and slender structures.
-
----
-
-## Main Results
-
-SRPNet is evaluated on three widely used COD benchmarks: **CAMO**, **COD10K**, and **CHAMELEON**.
-
-| Dataset | S-measure ↑ | maxE-measure ↑ | maxF-measure ↑ | MAE ↓ |
-|---|---:|---:|---:|---:|
-| CAMO | 0.892 | 0.949 | 0.890 | 0.042 |
-| COD10K | 0.899 | 0.948 | 0.890 | 0.029 |
-| CHAMELEON | 0.900 | 0.949 | 0.890 | 0.033 |
-
----
-
-## Installation
-
-```bash
-git clone https://github.com/LJB123779/SRPNet.git
-cd SRPNet
-
-conda create -n srpnet python=3.10 -y
-conda activate srpnet
-
-pip install -r requirements.txt

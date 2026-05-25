@@ -9,7 +9,6 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://img.shields.io/badge/Paper-Neurocomputing-blue"></a>
   <a href="#"><img src="https://img.shields.io/badge/Task-Camouflaged%20Object%20Detection-orange"></a>
   <a href="#"><img src="https://img.shields.io/badge/Framework-PyTorch-red"></a>
   <a href="#"><img src="https://img.shields.io/badge/Backbone-Frozen%20SAM3-green"></a>

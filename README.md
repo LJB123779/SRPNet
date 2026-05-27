@@ -1,4 +1,4 @@
-# SRPNet: Structural Recovery from Regional Priors for Camouflaged Object Detection
+# SRPNet: Decoder-Side Structural Recovery with Frozen SAM3 Features for Camouflaged Object Detection
 
 <p align="center">
   <img src="assets/framework.png" width="85%">
@@ -29,7 +29,6 @@ This repository contains the official implementation of **SRPNet**, proposed in:
 
 > **SRPNet: Structural Recovery from Regional Priors for Camouflaged Object Detection**  
 > Jing Zhang, Jianbin Liu, Zuhe Li, Weiwei Zhang  
-> Submitted to *Neurocomputing*
 
 Camouflaged object detection (COD) aims to segment objects that are visually similar to their surrounding environments. This task is challenging because camouflaged objects often exhibit weak boundaries, low contrast, fragmented structures, and confusing background textures.
 
